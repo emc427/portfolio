@@ -1,0 +1,166 @@
+.jumbotron {
+ 	background-image: url(https://images.unsplash.com/photo-1521453159160-6b5c58c24591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=962&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 800px;
+    padding: 7% 20%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 0px) {
+	.jumbotron .lead{
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.jumbotron .lead{
+		font-size: 1.25rem;
+	}
+}
+
+@media (min-width: 0px) {
+	.jumbotron .display-4 {
+		font-size: 2.5em;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.jumbotron .display-4 {
+		font-size: 2.3em;
+	}
+}
+@media (min-width: 1200px) {
+	.jumbotron .display-4 {
+		font-size: 3.0em;
+	}
+}
+
+
+.display-4 span {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .display-4 span {
+    display: inline-block;
+  }
+}
+
+
+.fab, .navbar .fas{
+	font-size: 30px;
+	color:black;
+}
+
+.navbar{
+	border:0;
+	border-radius:0;
+	background: none !important;
+}
+
+hr {
+	border-color:black;
+}
+
+.typewriter {
+  overflow: hidden; 
+  border-right: .15em solid black; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  font-family: 'Raleway', sans-serif;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end 8;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.btn {
+	margin: 30px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+#aboutMe {
+  margin-top: 0;
+  text-align: center;  
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  font-family:'Raleway', sans-serif;
+  margin-top: 30px;
+}
+
+#aboutMe p {
+	border-left: 2px solid blue;
+	margin: 30px 20px;
+	padding: 20px;
+}
+
+#aboutMe h2 {
+	font-size: 2em;
+}
+
+.skills h2 {
+	text-align: center;
+	font-family:'Raleway', sans-serif;
+	font-size: 3rem;
+}
+
+
+#mySkills {
+	border-style: double;
+	border-color: #cccccc;
+	font-family:'Raleway', sans-serif;
+	text-align:center;
+	padding: 20px;
+	margin:30px auto;
+
+}
+
+.banner {
+	background-image: url(https://images.unsplash.com/photo-1521798864191-bb5fb5a9da66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1038&q=80);
+	background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 40px;
+	margin: 0;
+	text-align:center;
+	height: 100px;
+	padding: 10px;
+	font-size: 40px;
+	font-family:'Raleway', sans-serif;
+}
+
+#projects .card {
+	margin: 30px auto;
+	float: none;
+	margin-bottom: 10px;
+	height: 100%;
+	text-align:center;
+}
+#projects img {
+	height: 250px;
+}
+/*
+.btn {
+	background: #cc0099;
+	border:none;
+}
